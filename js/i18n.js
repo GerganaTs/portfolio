@@ -201,13 +201,12 @@
       "art.lightbox.close": "Close artwork",
       "contact.eyebrow": "Contact",
       "contact.title":
-        "Let’s talk about quality strategy, product craft, and remote collaboration.",
+        "Let’s talk about web design, product craft, and remote collaboration.",
       "contact.kicker": "Available for remote-only roles",
       "contact.copy": "Copy email",
       "contact.copied": "Copied",
       "contact.cv": "QA CV site ↗",
-      "footer.copy":
-        "© 2026 Gergana Tsirkova. Designed & engineered as a dark-mode agency portfolio.",
+      "footer.copy": "© 2026 Gergana Tsirkova.",
       "footer.top": "Back to top",
     },
     bg: {
@@ -316,8 +315,8 @@
       "work.link.qa": "QA бележки ↗",
       "skills.eyebrow": "Двойна експертиза",
       "skills.title":
-        "Матрица от умения на пресечната точка между инженеринг на качеството и занаята.",
-      "skills.note": "Скролнете, за да преминете през стълбовете →",
+        "Матрица от умения в пресечната точка между инженерството на качеството и уеб занаята.",
+      "skills.note": "Превъртете, за да разгледате направленията →",
       "skills.1.index": "01 — Дизайн и Frontend",
       "skills.1.title": "UI / UX уеб дизайн и фронтенд разработка",
       "skills.1.body":
@@ -409,13 +408,12 @@
       "art.lightbox.close": "Затвори картината",
       "contact.eyebrow": "Контакт",
       "contact.title":
-        "Нека говорим за стратегия за качество, продуктов занаят и remote сътрудничество.",
+        "Нека обсъдим следващия уеб проект, дизайн концепция или възможност за съвместна работа.",
       "contact.kicker": "На разположение за remote роли",
       "contact.copy": "Копирай имейл",
       "contact.copied": "Копирано",
       "contact.cv": "QA CV сайт ↗",
-      "footer.copy":
-        "© 2026 Гергана Циркова. Дизайнирано и разработено като dark-mode агентско портфолио.",
+      "footer.copy": "© 2026 Гергана Циркова.",
       "footer.top": "Към началото",
     },
   };
