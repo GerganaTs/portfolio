@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gergana Tsirkova — Senior QA Specialist, UI/UX designer, and full-stack engineer. Bridging flawless quality, pixel-perfect design, and AI-accelerated product engineering." />
+  <meta name="theme-color" content="#08090c" />
+  <meta property="og:title" content="Gergana Tsirkova — QA, Design & Engineering" />
+  <meta property="og:description" content="Agency-grade portfolio of a versatile tech professional bridging Quality Assurance, Web Design, and Full-Stack Product Engineering." />
+  <meta property="og:type" content="website" />
+  <title>Gergana Tsirkova — QA · Design · Engineering</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.8/dist/lenis.min.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"></span></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="orb orb-gold" aria-hidden="true"></div>
+  <div class="orb orb-emerald" aria-hidden="true"></div>
+
+  <header class="nav" data-nav>
+    <a class="nav-mark" href="#top" data-i18n-aria="nav.home" aria-label="Gergana Tsirkova home">
+      <span>GT</span>
+    </a>
+    <nav class="nav-links" data-nav-links aria-label="Primary">
+      <a href="#focus" data-i18n="nav.focus">Focus</a>
+      <a href="#work" data-i18n="nav.work">Work</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#art" data-i18n="nav.art">Art</a>
+      <button class="lang-switch" type="button" data-lang-switch aria-label="Switch language. Current: English">
+        <span class="lang-opt is-active" data-lang-label="en">EN</span>
+        <span class="lang-sep" aria-hidden="true">/</span>
+        <span class="lang-opt" data-lang-label="bg">BG</span>
+      </button>
+      <a class="nav-cta magnetic" href="#contact" data-magnetic data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="lang-switch lang-switch-mobile" type="button" data-lang-switch aria-label="Switch language. Current: English">
+        <span class="lang-opt is-active" data-lang-label="en">EN</span>
+        <span class="lang-sep" aria-hidden="true">/</span>
+        <span class="lang-opt" data-lang-label="bg">BG</span>
+      </button>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobile-menu" data-i18n-aria="nav.open" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+    <a href="#focus" data-i18n="nav.focus">Focus</a>
+    <a href="#work" data-i18n="nav.work">Work</a>
+    <a href="#skills" data-i18n="nav.skills">Skills</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#art" data-i18n="nav.art">Art</a>
+    <a href="#contact" data-i18n="nav.touch">Get in Touch</a>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-meta reveal">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span data-i18n="hero.meta">Based in Ruse, Bulgaria · Open to remote-only roles</span>
+      </div>
+      <p class="hero-kicker reveal">
+        <span data-i18n="hero.kicker.qa">Senior QA Specialist</span>
+        <span class="dot">·</span>
+        <span data-i18n="hero.kicker.design">UI / UX Design</span>
+        <span class="dot">·</span>
+        <span data-i18n="hero.kicker.code">Full-Stack Engineering</span>
+      </p>
+      <h1 class="hero-title">
+        <span class="line"><span class="line-inner" data-i18n-html="hero.line1">Bridging <em>Flawless Quality</em>,</span></span>
+        <span class="line"><span class="line-inner" data-i18n-html="hero.line2"><em>Pixel-Perfect Design</em>,</span></span>
+        <span class="line"><span class="line-inner" data-i18n-html="hero.line3">and <em>Full-Stack Engineering</em>.</span></span>
+      </h1>
+      <p class="hero-sub reveal" data-i18n="hero.sub">
+        Senior QA Specialist &amp; UI/UX Web Design expert with deep experience in automated validation, test matrices, and building custom web apps through AI-accelerated workflows (vibe-coding).
+      </p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-gold magnetic" href="#focus" data-magnetic>
+          <span data-i18n="hero.cta.projects">Explore Projects</span>
+        </a>
+        <a class="btn btn-ghost magnetic" href="#contact" data-magnetic>
+          <span data-i18n="hero.cta.contact">Get in Touch</span>
+        </a>
+      </div>
+      <div class="hero-canvas-wrap" aria-hidden="true" data-hero-canvas>
+        <svg class="hero-canvas" viewBox="0 0 800 800" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="blobGold" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#f8dfa2" stop-opacity="0.95"/>
+              <stop offset="35%" stop-color="#c9974a" stop-opacity="0.55"/>
+              <stop offset="75%" stop-color="#5d4620" stop-opacity="0.2"/>
+              <stop offset="100%" stop-color="#0b0d11" stop-opacity="0"/>
+            </radialGradient>
+            <radialGradient id="blobEmerald" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#5be0af" stop-opacity="0.75"/>
+              <stop offset="55%" stop-color="#136e4d" stop-opacity="0.3"/>
+              <stop offset="100%" stop-color="#0b0d11" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="ringGold" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#d4b06a" stop-opacity="0.9"/>
+              <stop offset="100%" stop-color="#d4b06a" stop-opacity="0.05"/>
+            </linearGradient>
+            <linearGradient id="ringEmerald" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#3dcf9a" stop-opacity="0.7"/>
+              <stop offset="100%" stop-color="#3dcf9a" stop-opacity="0.05"/>
+            </linearGradient>
+            <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="2"/>
+            </filter>
+          </defs>
+
+          <g class="hc-group" data-hc-group>
+            <g class="hc-blobs">
+              <path class="hc-blob hc-blob-a" data-hc-blob="a" fill="url(#blobGold)"
+                d="M400 176 C 512 176, 616 246, 638 358 C 660 470, 592 570, 486 610 C 380 650, 258 606, 214 504 C 170 402, 214 268, 322 210 C 348 196, 378 180, 400 176 Z"/>
+              <path class="hc-blob hc-blob-b" data-hc-blob="b" fill="url(#blobEmerald)"
+                d="M410 220 C 520 210, 610 300, 620 410 C 630 520, 540 610, 420 610 C 300 610, 210 520, 210 400 C 210 320, 260 260, 340 230 C 366 224, 388 220, 410 220 Z"/>
+            </g>
+
+            <g class="hc-orbit hc-orbit-1" data-hc-orbit="1">
+              <circle cx="400" cy="400" r="360" stroke="#d4b06a" stroke-opacity="0.55" stroke-width="1" stroke-dasharray="1 8"/>
+              <circle cx="760" cy="400" r="5" fill="#e8c98a"/>
+              <circle cx="70" cy="400" r="2.4" fill="#d4b06a" opacity="0.75"/>
+            </g>
+
+            <g class="hc-orbit hc-orbit-2" data-hc-orbit="2">
+              <ellipse cx="400" cy="400" rx="300" ry="280" stroke="#3dcf9a" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="2 10"/>
+              <circle cx="400" cy="120" r="4" fill="#5be0af"/>
+              <circle cx="400" cy="680" r="2.4" fill="#3dcf9a" opacity="0.75"/>
+            </g>
+
+            <g class="hc-orbit hc-orbit-3" data-hc-orbit="3">
+              <circle cx="400" cy="400" r="230" stroke="#f3efe6" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="1 5"/>
+              <circle cx="400" cy="170" r="2" fill="#f3efe6" opacity="0.85"/>
+              <circle cx="630" cy="400" r="1.4" fill="#f3efe6" opacity="0.6"/>
+            </g>
+
+            <g class="hc-orbit hc-orbit-4" data-hc-orbit="4">
+              <circle cx="400" cy="400" r="160" stroke="#d4b06a" stroke-opacity="0.45" stroke-width="0.75"/>
+              <circle cx="560" cy="400" r="3" fill="#e8c98a"/>
+              <circle cx="240" cy="400" r="1.6" fill="#e8c98a" opacity="0.7"/>
+            </g>
+
+            <g class="hc-core" data-hc-core>
+              <circle cx="400" cy="400" r="96" stroke="#d4b06a" stroke-width="0.7" opacity="0.75"/>
+              <circle cx="400" cy="400" r="72" stroke="#f3efe6" stroke-width="0.5" opacity="0.35"/>
+              <circle cx="400" cy="400" r="48" stroke="#3dcf9a" stroke-width="0.7" opacity="0.7"/>
+              <circle cx="400" cy="400" r="10" fill="#e8c98a"/>
+              <circle cx="400" cy="400" r="3.5" fill="#0b0d11"/>
+              <line x1="304" y1="400" x2="284" y2="400" stroke="#d4b06a" stroke-width="0.6" opacity="0.6"/>
+              <line x1="496" y1="400" x2="516" y2="400" stroke="#d4b06a" stroke-width="0.6" opacity="0.6"/>
+              <line x1="400" y1="304" x2="400" y2="284" stroke="#d4b06a" stroke-width="0.6" opacity="0.6"/>
+              <line x1="400" y1="496" x2="400" y2="516" stroke="#d4b06a" stroke-width="0.6" opacity="0.6"/>
+            </g>
+
+            <g class="hc-ticks" data-hc-ticks opacity="0.55">
+              <g class="hc-tick-row"></g>
+            </g>
+
+            <g class="hc-labels" opacity="0.65">
+              <text x="400" y="52" text-anchor="middle" fill="#8d948c" font-family="Outfit, sans-serif" font-size="9" letter-spacing="4">QUALITY · DESIGN · CODE</text>
+              <text x="400" y="762" text-anchor="middle" fill="#5c635c" font-family="Outfit, sans-serif" font-size="8" letter-spacing="6">RUSE · BG · 44.8°N</text>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="hero-badge hero-badge-1" data-hero-badge>
+        <span>01</span>
+        <strong data-i18n="hero.badge.design">Design</strong>
+      </div>
+      <div class="hero-badge hero-badge-2" data-hero-badge>
+        <span>02</span>
+        <strong data-i18n="hero.badge.quality">Quality</strong>
+      </div>
+      <div class="hero-badge hero-badge-3" data-hero-badge>
+        <span>03</span>
+        <strong data-i18n="hero.badge.code">Code</strong>
+      </div>
+      <a class="scroll-hint reveal" href="#focus">
+        <span data-i18n="hero.scroll">Scroll</span>
+        <i></i>
+      </a>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track" data-i18n-marquee>
+        <span>Quality Assurance</span><span>UI / UX Design</span><span>Full-Stack Engineering</span><span>Accessibility</span><span>API Validation</span><span>AI-Accelerated Builds</span><span>Quality Assurance</span><span>UI / UX Design</span><span>Full-Stack Engineering</span><span>Accessibility</span><span>API Validation</span><span>AI-Accelerated Builds</span>
+      </div>
+    </div>
+
+    <section class="section focus" id="focus">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span>01</span> <span data-i18n="focus.eyebrow">Current Focus</span></p>
+        <h2 class="section-title reveal" data-i18n="focus.title">Active work from the last three months — high-complexity product modules, not brochure sites.</h2>
+      </div>
+      <div class="spotlight-grid">
+        <article class="spotlight-card" data-parallax-card>
+          <div class="spotlight-visual visual-orbit visual-orbit-gold">
+            <div class="orbit-stage" data-depth aria-hidden="true">
+              <svg class="orbit-svg" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <radialGradient id="orbitAuraGold" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#f8dfa2" stop-opacity="0.55"/>
+                    <stop offset="45%" stop-color="#d4b06a" stop-opacity="0.18"/>
+                    <stop offset="100%" stop-color="#0b0d11" stop-opacity="0"/>
+                  </radialGradient>
+                  <linearGradient id="orbitStrokeGold" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#f8dfa2" stop-opacity="0.95"/>
+                    <stop offset="55%" stop-color="#d4b06a" stop-opacity="0.55"/>
+                    <stop offset="100%" stop-color="#3dcf9a" stop-opacity="0.15"/>
+                  </linearGradient>
+                  <filter id="orbitSoftGold" x="-40%" y="-40%" width="180%" height="180%">
+                    <feGaussianBlur stdDeviation="1.6"/>
+                  </filter>
+                </defs>
+                <circle class="orbit-aura" cx="120" cy="120" r="88" fill="url(#orbitAuraGold)"/>
+                <g class="orbit-spin orbit-spin-slow">
+                  <circle cx="120" cy="120" r="92" stroke="url(#orbitStrokeGold)" stroke-width="0.7" stroke-dasharray="2 7" opacity="0.7"/>
+                  <circle cx="120" cy="28" r="2.2" fill="#e8c98a"/>
+                </g>
+                <g class="orbit-spin orbit-spin-mid" filter="url(#orbitSoftGold)">
+                  <path class="orbit-spiral" stroke="url(#orbitStrokeGold)" stroke-width="1.35" stroke-linecap="round"
+                    d="M120 120 C 132 108, 148 104, 162 112 C 178 122, 184 142, 174 158 C 162 178, 138 186, 118 178 C 94 168, 82 142, 92 118 C 102 94, 130 82, 156 92 C 178 102, 192 128, 184 152"/>
+                </g>
+                <g class="orbit-spin orbit-spin-fast">
+                  <circle cx="120" cy="120" r="54" stroke="#d4b06a" stroke-opacity="0.35" stroke-width="0.8"/>
+                  <circle cx="174" cy="120" r="2.6" fill="#f8dfa2"/>
+                  <circle cx="120" cy="174" r="1.5" fill="#3dcf9a" opacity="0.85"/>
+                </g>
+                <circle class="orbit-core" cx="120" cy="120" r="6" fill="#e8c98a"/>
+                <circle cx="120" cy="120" r="2.2" fill="#0b0d11"/>
+              </svg>
+            </div>
+            <p class="visual-caption" data-i18n="focus.avtonomera.caption">Worldwide plate standards · live canvas logic</p>
+          </div>
+          <div class="spotlight-body">
+            <p class="chip-row">
+              <span class="chip chip-live" data-i18n="focus.avtonomera.chip1">In development</span>
+              <span class="chip" data-i18n="focus.avtonomera.chip2">WordPress Plugin</span>
+            </p>
+            <h3 data-i18n="focus.avtonomera.title">Avtonomera · Global License Plate Designer</h3>
+            <p data-i18n="focus.avtonomera.body">Custom product designer module for avtonomera.eu — a Fancy Product Designer–class experience supporting worldwide license-plate standards through advanced frontend logic, live previews, and country-specific layouts.</p>
+            <ul class="mini-list">
+              <li data-i18n="focus.avtonomera.li1">Interactive canvas for plate typography, flags, and regional formats</li>
+              <li data-i18n="focus.avtonomera.li2">Complex option trees mapped to manufacturing-ready output</li>
+              <li data-i18n="focus.avtonomera.li3">WordPress plugin architecture for a production storefront</li>
+            </ul>
+            <div class="card-status">
+              <span class="status-pill" data-i18n="focus.avtonomera.status">Private build · public link coming soon</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="spotlight-card" data-parallax-card>
+          <div class="spotlight-visual visual-orbit visual-orbit-emerald">
+            <div class="orbit-stage" data-depth aria-hidden="true">
+              <svg class="orbit-svg" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <radialGradient id="orbitAuraEmerald" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#5be0af" stop-opacity="0.45"/>
+                    <stop offset="50%" stop-color="#3dcf9a" stop-opacity="0.14"/>
+                    <stop offset="100%" stop-color="#0b0d11" stop-opacity="0"/>
+                  </radialGradient>
+                  <linearGradient id="orbitStrokeEmerald" x1="1" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#5be0af" stop-opacity="0.95"/>
+                    <stop offset="50%" stop-color="#3dcf9a" stop-opacity="0.5"/>
+                    <stop offset="100%" stop-color="#d4b06a" stop-opacity="0.2"/>
+                  </linearGradient>
+                  <filter id="orbitSoftEmerald" x="-40%" y="-40%" width="180%" height="180%">
+                    <feGaussianBlur stdDeviation="1.6"/>
+                  </filter>
+                </defs>
+                <circle class="orbit-aura" cx="120" cy="120" r="88" fill="url(#orbitAuraEmerald)"/>
+                <g class="orbit-spin orbit-spin-slow orbit-spin-reverse">
+                  <circle cx="120" cy="120" r="96" stroke="url(#orbitStrokeEmerald)" stroke-width="0.65" stroke-dasharray="1 6" opacity="0.65"/>
+                  <circle cx="216" cy="120" r="2" fill="#5be0af"/>
+                </g>
+                <g class="orbit-spin orbit-spin-mid orbit-spin-reverse" filter="url(#orbitSoftEmerald)">
+                  <path class="orbit-spiral" stroke="url(#orbitStrokeEmerald)" stroke-width="1.4" stroke-linecap="round"
+                    d="M120 120 C 108 132, 104 148, 112 162 C 122 178, 142 184, 158 174 C 178 162, 186 138, 178 118 C 168 94, 142 82, 118 92 C 94 102, 82 130, 92 156 C 102 178, 128 192, 152 184"/>
+                </g>
+                <g class="orbit-spin orbit-spin-fast">
+                  <circle cx="120" cy="120" r="48" stroke="#3dcf9a" stroke-opacity="0.4" stroke-width="0.85"/>
+                  <circle cx="72" cy="120" r="2.4" fill="#5be0af"/>
+                  <circle cx="120" cy="72" r="1.6" fill="#e8c98a" opacity="0.9"/>
+                </g>
+                <circle class="orbit-core orbit-core-emerald" cx="120" cy="120" r="6" fill="#3dcf9a"/>
+                <circle cx="120" cy="120" r="2.2" fill="#0b0d11"/>
+              </svg>
+            </div>
+            <p class="visual-caption" data-i18n="focus.omoniya.caption">4-step configurator · SVG + dual DB</p>
+          </div>
+          <div class="spotlight-body">
+            <p class="chip-row">
+              <span class="chip chip-live" data-i18n="focus.omoniya.chip1">Active build</span>
+              <span class="chip" data-i18n="focus.omoniya.chip2">Laravel · Livewire</span>
+            </p>
+            <h3 data-i18n="focus.omoniya.title">Omoniya · Custom Door Configurator</h3>
+            <p data-i18n="focus.omoniya.body">Independent full-stack module translating dimensions, materials, glass inserts, and finishes into real-time SVG previews and dynamic pricing — with the same rigor applied to QA as to the product itself.</p>
+            <ul class="mini-list">
+              <li data-i18n="focus.omoniya.li1">Boundary-value testing on height/width to protect manufacturing &amp; price</li>
+              <li data-i18n="focus.omoniya.li2">Multi-step session state + dual persistence (MySQL / SQLite)</li>
+              <li data-i18n="focus.omoniya.li3">PHPUnit coverage for surcharge logic and regression-prone paths</li>
+            </ul>
+            <div class="card-status">
+              <span class="status-pill" data-i18n="focus.omoniya.status">Active build · walkthrough available on request</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span>02</span> <span data-i18n="work.eyebrow">Featured Work</span></p>
+        <h2 class="section-title reveal" data-i18n="work.title">Client platforms and shipped web products — WordPress brands, conversion sites, and a full-stack marketplace.</h2>
+      </div>
+      <div class="work-grid">
+        <article class="work-card" data-work-card>
+          <a class="work-visual visual-folk" href="https://zhaltitsa.com" target="_blank" rel="noopener noreferrer" data-i18n-aria="work.zhaltitsa.aria" aria-label="Visit Zhaltitsa">
+            <span class="work-year">WordPress</span>
+            <strong>Жълтица</strong>
+          </a>
+          <div class="work-body">
+            <p class="work-tag" data-i18n="work.zhaltitsa.tag">Culture &amp; Community</p>
+            <h3 data-i18n="work.zhaltitsa.title">Танцова Задруга Жълтица</h3>
+            <p data-i18n="work.zhaltitsa.body">Folk dance club site for Ruse — services, schedule, gallery, and enrollment with a warm cultural brand system.</p>
+            <a class="text-link" href="https://zhaltitsa.com" target="_blank" rel="noopener noreferrer">zhaltitsa.com ↗</a>
+          </div>
+        </article>
+
+        <article class="work-card" data-work-card>
+          <a class="work-visual visual-solar" href="https://e2pro.eu" target="_blank" rel="noopener noreferrer" data-i18n-aria="work.e2pro.aria" aria-label="Visit E2PRO">
+            <span class="work-year">WordPress</span>
+            <strong>E2PRO</strong>
+          </a>
+          <div class="work-body">
+            <p class="work-tag" data-i18n="work.e2pro.tag">Energy · Company site</p>
+            <h3 data-i18n="work.e2pro.title">E2PRO Photovoltaic Systems</h3>
+            <p data-i18n="work.e2pro.body">Professional presence for consultation, distribution, and installation of photovoltaic systems — trust-led B2B storytelling.</p>
+            <a class="text-link" href="https://e2pro.eu" target="_blank" rel="noopener noreferrer">e2pro.eu ↗</a>
+          </div>
+        </article>
+
+        <article class="work-card" data-work-card>
+          <a class="work-visual visual-law" href="https://advokativanov.eu/" target="_blank" rel="noopener noreferrer" data-i18n-aria="work.ivanov.aria" aria-label="Visit Advokat Ivanov">
+            <span class="work-year">Website</span>
+            <strong>СИ</strong>
+          </a>
+          <div class="work-body">
+            <p class="work-tag" data-i18n="work.ivanov.tag">Legal Services</p>
+            <h3 data-i18n="work.ivanov.title">Адвокат Светломир Иванов</h3>
+            <p data-i18n="work.ivanov.body">Law-firm presence for Ruse — practice areas, pricing clarity, and direct contact pathways with a restrained editorial tone.</p>
+            <div class="card-links">
+              <a href="https://advokativanov.eu/" target="_blank" rel="noopener noreferrer" data-i18n="work.link.live">Live ↗</a>
+              <a href="https://github.com/GerganaTs/advokativanov" target="_blank" rel="noopener noreferrer" data-i18n="work.link.github">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card" data-work-card>
+          <a class="work-visual visual-film" href="https://ivona-toneva.vercel.app/" target="_blank" rel="noopener noreferrer" data-i18n-aria="work.ivona.aria" aria-label="Visit Ivona Toneva">
+            <span class="work-year">Portfolio</span>
+            <span class="play-glyph" aria-hidden="true"></span>
+          </a>
+          <div class="work-body">
+            <p class="work-tag" data-i18n="work.ivona.tag">Video services</p>
+            <h3 data-i18n="work.ivona.title">Ivona Toneva</h3>
+            <p data-i18n="work.ivona.body">Bilingual video-editing portfolio — service offerings, showreel energy, and a scroll-stopping social-content brand.</p>
+            <div class="card-links">
+              <a href="https://ivona-toneva.vercel.app/" target="_blank" rel="noopener noreferrer" data-i18n="work.link.live">Live ↗</a>
+              <a href="https://github.com/GerganaTs/ivona-toneva" target="_blank" rel="noopener noreferrer" data-i18n="work.link.github">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card" data-work-card>
+          <a class="work-visual visual-interior" href="https://interiorauto.eu" target="_blank" rel="noopener noreferrer" data-i18n-aria="work.interior.aria" aria-label="Visit Interior Auto">
+            <span class="work-year">Website</span>
+            <strong>IA</strong>
+          </a>
+          <div class="work-body">
+            <p class="work-tag" data-i18n="work.interior.tag">Automotive interiors</p>
+            <h3 data-i18n="work.interior.title">Interior Auto</h3>
+            <p data-i18n="work.interior.body">Restoration and detailing studio site — leather repair, airbag wheel recovery, and conversion-focused service storytelling.</p>
+            <a class="text-link" href="https://interiorauto.eu" target="_blank" rel="noopener noreferrer">interiorauto.eu ↗</a>
+          </div>
+        </article>
+
+        <article class="work-card" data-work-card>
+          <a class="work-visual visual-lens" href="https://auto-lens-three.vercel.app/" target="_blank" rel="noopener noreferrer" data-i18n-aria="work.lens.aria" aria-label="Visit Auto Lens">
+            <span class="work-year">Studio</span>
+            <svg viewBox="0 0 64 64" class="aperture" aria-hidden="true"><circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="32" cy="32" r="8" fill="none" stroke="#d4b06a" stroke-width="1.4"/><path d="M32 10v12M32 42v12M10 32h12M42 32h12M16 16l8 8M40 40l8 8M48 16l-8 8M24 40l-8 8" stroke="currentColor" stroke-width="1"/></svg>
+          </a>
+          <div class="work-body">
+            <p class="work-tag" data-i18n="work.lens.tag">Photography &amp; detailing</p>
+            <h3 data-i18n="work.lens.title">Auto Lens</h3>
+            <p data-i18n="work.lens.body">Premium auto detailing + sales photography — service story, portfolio lightbox, and files ready for listing platforms.</p>
+            <div class="card-links">
+              <a href="https://auto-lens-three.vercel.app/" target="_blank" rel="noopener noreferrer" data-i18n="work.link.live">Live ↗</a>
+              <a href="https://github.com/GerganaTs/auto-lens" target="_blank" rel="noopener noreferrer" data-i18n="work.link.github">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card work-card-wide" data-work-card>
+          <a class="work-visual visual-market" href="https://melodious-trifle-b87c15.netlify.app/" target="_blank" rel="noopener noreferrer" data-i18n-aria="work.obyava.aria" aria-label="Visit Obyava">
+            <span class="work-year">SoftUni · Vibecoding</span>
+            <div class="market-tiles" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+          </a>
+          <div class="work-body">
+            <p class="work-tag" data-i18n="work.obyava.tag">Full-stack marketplace</p>
+            <h3 data-i18n="work.obyava.title">Obyava</h3>
+            <p data-i18n="work.obyava.body">Classifieds-style web app inspired by OLX — post, browse, and manage ads across categories. Built and shipped as a SoftUni AI project with a live Netlify deployment.</p>
+            <div class="card-links">
+              <a href="https://melodious-trifle-b87c15.netlify.app/" target="_blank" rel="noopener noreferrer" data-i18n="work.link.demo">Live demo ↗</a>
+              <a href="https://github.com/GerganaTs/Obyava" target="_blank" rel="noopener noreferrer" data-i18n="work.link.github">GitHub ↗</a>
+              <a href="https://gergana-tsirkova-qa.vercel.app/qa-docs.html" target="_blank" rel="noopener noreferrer" data-i18n="work.link.qa">QA notes ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills-pin" id="skills">
+      <div class="skills-sticky">
+        <div class="skills-intro">
+          <p class="eyebrow"><span>03</span> <span data-i18n="skills.eyebrow">Dual-Pillar Expertise</span></p>
+          <h2 data-i18n="skills.title">A skills matrix built at the intersection of quality engineering and craft.</h2>
+          <p class="skills-note" data-i18n="skills.note">Scroll to move through the pillars →</p>
+        </div>
+        <div class="skills-track" data-skills-track>
+          <article class="skill-panel skill-panel-gold">
+            <p class="skill-index" data-i18n="skills.1.index">01 — Design &amp; Frontend</p>
+            <h3 data-i18n="skills.1.title">UI / UX Web Design &amp; Frontend Engineering</h3>
+            <p data-i18n="skills.1.body">Primary craft — Figma to production with obsessive spacing, type, and brand consistency; shipping custom modules with modern tooling and AI-accelerated workflows.</p>
+            <ul>
+              <li data-i18n="skills.1.li1">UI / UX prototyping · Figma · Adobe XD</li>
+              <li data-i18n="skills.1.li2">HTML5 · CSS3 · JavaScript · Tailwind · LESS</li>
+              <li data-i18n="skills.1.li3">Laravel · Livewire · Filament · Alpine.js</li>
+              <li data-i18n="skills.1.li4">Cursor · GitHub Copilot · vibe-coding</li>
+              <li data-i18n="skills.1.li5">WordPress · Bootstrap · icon systems</li>
+            </ul>
+          </article>
+          <article class="skill-panel">
+            <p class="skill-index" data-i18n="skills.2.index">02 — QA</p>
+            <h3 data-i18n="skills.2.title">Quality Assurance &amp; Engineering</h3>
+            <p data-i18n="skills.2.body">End-to-end defect lifecycle on high-traffic automotive e-commerce and microservices — from refinement to production support.</p>
+            <ul>
+              <li data-i18n="skills.2.li1">Manual &amp; automation testing</li>
+              <li data-i18n="skills.2.li2">Smoke, functional, GUI, integration, regression, UAT</li>
+              <li data-i18n="skills.2.li3">Test case &amp; plan design · Jira · Redmine</li>
+              <li data-i18n="skills.2.li4">Selenium WebDriver · NUnit · C# · PHPUnit</li>
+            </ul>
+          </article>
+          <article class="skill-panel">
+            <p class="skill-index" data-i18n="skills.3.index">03 — API / Data</p>
+            <h3 data-i18n="skills.3.title">REST, SQL &amp; Observability</h3>
+            <p data-i18n="skills.3.body">Data-consistency checks between storefronts and backends, plus log-driven investigation when production drifts.</p>
+            <ul>
+              <li data-i18n="skills.3.li1">REST APIs · Postman · Swagger</li>
+              <li data-i18n="skills.3.li2">SQL validation · MySQL · DBeaver · SQLite</li>
+              <li data-i18n="skills.3.li3">Kibana log analysis</li>
+              <li data-i18n="skills.3.li4">JMeter load &amp; stress · Prometheus · Grafana</li>
+            </ul>
+          </article>
+          <article class="skill-panel">
+            <p class="skill-index" data-i18n="skills.4.index">04 — A11y</p>
+            <h3 data-i18n="skills.4.title">Inclusive &amp; Cross-Browser QA</h3>
+            <p data-i18n="skills.4.body">WCAG-minded coverage with real assistive tech — because visual polish is incomplete without access.</p>
+            <ul>
+              <li data-i18n="skills.4.li1">WCAG guidelines</li>
+              <li data-i18n="skills.4.li2">NVDA · VoiceOver · TalkBack · Narrator</li>
+              <li data-i18n="skills.4.li3">Cross-browser &amp; mobile QA</li>
+              <li data-i18n="skills.4.li4">UI precision transferred from design practice</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span>04</span> <span data-i18n="about.eyebrow">Background</span></p>
+        <h2 class="section-title reveal" data-i18n="about.title">Four years hardening e-commerce quality, grounded in design craft and compliance thinking.</h2>
+      </div>
+      <div class="about-layout">
+        <div class="about-copy">
+          <p class="lead reveal" data-i18n="about.lead">Detail-oriented Quality Assurance Specialist with 4+ years testing high-traffic automotive e-commerce and microservices at Markovski Solutions — backed by a two-year foundation in web design and frontend, and a prior career in customs compliance that still informs boundary-value thinking.</p>
+          <p class="reveal" data-i18n="about.body">Today the practice spans both pillars: architecting test matrices, validating APIs and data, and building custom web applications through AI-accelerated workflows. The through-line is the same — catch the edge case before it ships, and make the interface feel inevitable.</p>
+          <div class="stat-row">
+            <article class="stat reveal">
+              <strong>4+</strong>
+              <span data-i18n="about.stat1">Years QA engineering</span>
+            </article>
+            <article class="stat reveal">
+              <strong>2</strong>
+              <span data-i18n="about.stat2">Years UI / frontend</span>
+            </article>
+            <article class="stat reveal">
+              <strong>9</strong>
+              <span data-i18n="about.stat3">Shipped web products</span>
+            </article>
+          </div>
+        </div>
+        <ol class="timeline">
+          <li class="reveal">
+            <p class="time" data-i18n="about.t1.time">May 2026 — Present</p>
+            <h3 data-i18n="about.t1.title">AI-Assisted Development &amp; QA Engineer</h3>
+            <p data-i18n="about.t1.body">Independent product work — Omoniya door configurator and Avtonomera plate designer. Full-stack execution with PHPUnit, dual-database persistence, and production plugin architecture.</p>
+          </li>
+          <li class="reveal">
+            <p class="time" data-i18n="about.t2.time">Mar 2022 — Apr 2026</p>
+            <h3 data-i18n="about.t2.title">Quality Assurance Specialist · Markovski Solutions</h3>
+            <p data-i18n="about.t2.body">High-traffic B2B automotive e-commerce: discovery → cart → checkout, API/SQL consistency, JMeter performance, WCAG a11y, and two company WordPress sites.</p>
+          </li>
+          <li class="reveal">
+            <p class="time" data-i18n="about.t3.time">Jan 2020 — Feb 2022</p>
+            <h3 data-i18n="about.t3.title">Web Designer &amp; Front-End · Software Solutions</h3>
+            <p data-i18n="about.t3.body">Grew from landing pages to MVC front-ends — Figma/XD, HTML/CSS/LESS/Bootstrap, Kendo templates, and custom icon fonts.</p>
+          </li>
+          <li class="reveal">
+            <p class="time" data-i18n="about.t4.time">Mar 2010 — Dec 2019</p>
+            <h3 data-i18n="about.t4.title">Customs Inspector · National Customs Agency</h3>
+            <p data-i18n="about.t4.body">Risk-based document verification — the origin of a systematic eye for discrepancies, now applied as boundary and edge-case testing.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section art" id="art">
+      <div class="section-head art-head">
+        <p class="eyebrow reveal"><span>05</span> <span data-i18n="art.eyebrow">Beyond Code &amp; Design</span></p>
+        <h2 class="section-title reveal" data-i18n="art.title">Art &amp; Creative Work — the eye that shapes every interface.</h2>
+        <p class="art-lead reveal" data-i18n-html="art.lead">Outside engineering, I paint vivid folk-abstract worlds — botanical forms, patterned birds, and playful color studies. This is where the palettes, rhythm, and negative-space instincts that later show up in UI/UX get rehearsed. From <em>Mage World</em>, my ongoing series.</p>
+      </div>
+
+      <div class="art-grid" data-art-grid>
+        <figure class="art-tile art-tile-tall" data-art-tile tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="art-media">
+            <img src="assets/paintings/botanical-spirals.jpg" data-i18n-alt="art.1.alt" alt="Abstract botanical painting with red spirals and organic forms" loading="lazy" />
+          </div>
+          <figcaption>
+            <span class="art-index">01</span>
+            <h3 data-i18n="art.1.title">Botanical Spirals</h3>
+            <p data-i18n="art.1.body">Rhythm &amp; motion — informs page cadence and micro-transitions.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-tile art-tile-square" data-art-tile tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="art-media">
+            <img src="assets/paintings/pelican.jpg" data-i18n-alt="art.2.alt" alt="Stylized pelican painting with patterned body and pink pouch" loading="lazy" />
+          </div>
+          <figcaption>
+            <span class="art-index">02</span>
+            <h3 data-i18n="art.2.title">Patterned Pelican</h3>
+            <p data-i18n="art.2.body">Focal points &amp; hierarchy — shapes how a hero anchors the eye.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-tile art-tile-wide" data-art-tile tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="art-media">
+            <img src="assets/paintings/abstract-patterns.jpg" data-i18n-alt="art.3.alt" alt="Colorful abstract painting with polka dots, stripes, and organic shapes" loading="lazy" />
+          </div>
+          <figcaption>
+            <span class="art-index">03</span>
+            <h3 data-i18n="art.3.title">Pattern Fields</h3>
+            <p data-i18n="art.3.body">Systems &amp; repetition — the same instinct that drives design tokens and grids.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-tile art-tile-square" data-art-tile tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="art-media">
+            <img src="assets/paintings/coral-garden.jpg" data-i18n-alt="art.4.alt" alt="Vivid botanical painting with red berries, teal foliage, and yellow pod" loading="lazy" />
+          </div>
+          <figcaption>
+            <span class="art-index">04</span>
+            <h3 data-i18n="art.4.title">Coral Garden</h3>
+            <p data-i18n="art.4.body">Warm/cool balance — tunes palette temperature across a full UI.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-tile art-tile-tall" data-art-tile tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="art-media">
+            <img src="assets/paintings/citrus.jpg" data-i18n-alt="art.5.alt" alt="Expressive citrus fruit painting with radiant multicolor segments" loading="lazy" />
+          </div>
+          <figcaption>
+            <span class="art-index">05</span>
+            <h3 data-i18n="art.5.title">Citrus Study</h3>
+            <p data-i18n="art.5.body">Contrast &amp; luminance — the same discipline used for accessibility ratios.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="art-tile art-tile-square" data-art-tile tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="art-media">
+            <img src="assets/paintings/seafoam-flora.jpg" data-i18n-alt="art.6.alt" alt="Abstract floral painting on seafoam background with striped stem" loading="lazy" />
+          </div>
+          <figcaption>
+            <span class="art-index">06</span>
+            <h3 data-i18n="art.6.title">Seafoam Flora</h3>
+            <p data-i18n="art.6.body">Negative space &amp; flow — how a layout breathes on a real device.</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="art-footer reveal">
+        <p data-i18n-html="art.footer">More of the series on <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Mage World</a>. The same eye tests interfaces, tunes palettes, and hunts edge cases.</p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-head center">
+        <p class="eyebrow reveal"><span>06</span> <span data-i18n="contact.eyebrow">Contact</span></p>
+        <h2 class="section-title reveal" data-i18n="contact.title">Let’s talk about quality strategy, product craft, and remote collaboration.</h2>
+      </div>
+      <article class="contact-card glass reveal">
+        <p class="contact-kicker" data-i18n="contact.kicker">Available for remote-only roles</p>
+        <a class="contact-mail" href="mailto:gergana.tsirkova@gmail.com">gergana.tsirkova@gmail.com</a>
+        <div class="contact-actions">
+          <button class="btn btn-gold magnetic" type="button" data-copy-email data-magnetic>
+            <span data-i18n="contact.copy">Copy email</span>
+          </button>
+          <a class="btn btn-ghost magnetic" href="https://gergana-tsirkova-qa.vercel.app/" target="_blank" rel="noopener noreferrer" data-magnetic>
+            <span data-i18n="contact.cv">QA CV site ↗</span>
+          </a>
+        </div>
+        <ul class="contact-links">
+          <li>
+            <a href="https://github.com/GerganaTs" target="_blank" rel="noopener noreferrer">
+              <span>GitHub</span>
+              <strong>GerganaTs</strong>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/gergana-tsirkova-a77475174" target="_blank" rel="noopener noreferrer">
+              <span>LinkedIn</span>
+              <strong>gergana-tsirkova</strong>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+359882597071">
+              <span>Phone</span>
+              <strong>+359 882 597 071</strong>
+            </a>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n="footer.copy">© 2026 Gergana Tsirkova. Designed &amp; engineered as a dark-mode agency portfolio.</p>
+    <a href="#top" data-i18n="footer.top">Back to top</a>
+  </footer>
+
+  <div class="art-lightbox" data-art-lightbox hidden>
+    <div class="art-lightbox-backdrop" data-art-lightbox-backdrop></div>
+    <div class="art-lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="art-lightbox-title" data-art-lightbox-panel>
+      <button class="art-lightbox-close" type="button" data-art-lightbox-close data-i18n-aria="art.lightbox.close" aria-label="Close artwork">
+        <span aria-hidden="true">×</span>
+      </button>
+      <figure class="art-lightbox-figure">
+        <div class="art-lightbox-media">
+          <img src="" alt="" data-art-lightbox-img />
+        </div>
+        <figcaption class="art-lightbox-caption">
+          <span class="art-index" data-art-lightbox-index></span>
+          <h3 id="art-lightbox-title" data-art-lightbox-title></h3>
+          <p data-art-lightbox-body></p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
