@@ -67,6 +67,11 @@
       "work.eyebrow": "Featured Work",
       "work.title":
         "Client platforms and shipped web products — WordPress brands, conversion sites, and a full-stack marketplace.",
+      "work.tehnadzor.tag": "Technical Supervision · Company site",
+      "work.tehnadzor.title": "Технадзор Русе",
+      "work.tehnadzor.body":
+        "Licensed technical supervision for Ruse and nationwide — DAMTN-registered inspections of elevators, boilers, pressure vessels, and lifting equipment.",
+      "work.tehnadzor.aria": "Visit Tehnadzor Ruse",
       "work.zhaltitsa.tag": "Culture & Community",
       "work.zhaltitsa.title": "Танцова Задруга Жълтица",
       "work.zhaltitsa.body":
@@ -274,6 +279,11 @@
       "work.eyebrow": "Избрани проекти",
       "work.title":
         "Клиентски платформи и пуснати уеб продукти — WordPress брандове, конверсионни сайтове и full-stack marketplace.",
+      "work.tehnadzor.tag": "Технически надзор · Корпоративен сайт",
+      "work.tehnadzor.title": "Технадзор Русе",
+      "work.tehnadzor.body":
+        "Лицензиран технически надзор в Русе и цялата страна — прегледи по ДАМТН за асансьори, котли, съдове под налягане и повдигателни съоръжения.",
+      "work.tehnadzor.aria": "Посети Технадзор Русе",
       "work.zhaltitsa.tag": "Култура и общност",
       "work.zhaltitsa.title": "Танцова Задруга Жълтица",
       "work.zhaltitsa.body":
@@ -309,7 +319,7 @@
       "work.obyava.body":
         "Уеб приложение за обяви в стил OLX — публикуване, разглеждане и управление на обяви по категории. Изградено и пуснато като SoftUni AI проект с live Netlify деплой.",
       "work.obyava.aria": "Посети Обява",
-      "work.link.live": "На живо ↗",
+      "work.link.live": "Към сайта ↗",
       "work.link.demo": "Live демо ↗",
       "work.link.github": "GitHub ↗",
       "work.link.qa": "QA бележки ↗",
