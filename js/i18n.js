@@ -66,7 +66,12 @@
       "focus.omoniya.status": "Active build · walkthrough available on request",
       "work.eyebrow": "Featured Work",
       "work.title":
-        "Client platforms and shipped web products — WordPress brands, conversion sites, and a full-stack marketplace.",
+        "Client platforms and shipped web products — WordPress brands and conversion sites.",
+      "work.avtonomera.tag": "Product designer · License plates",
+      "work.avtonomera.title": "Avtonomera",
+      "work.avtonomera.body":
+        "Custom plate designer for avtonomera.eu — live canvas previews, worldwide formats, and manufacturing-ready option trees in a production WordPress plugin.",
+      "work.avtonomera.aria": "Visit Avtonomera",
       "work.tehnadzor.tag": "Technical Supervision · Company site",
       "work.tehnadzor.title": "Технадзор Русе",
       "work.tehnadzor.body":
@@ -102,15 +107,8 @@
       "work.lens.body":
         "Premium auto detailing + sales photography — service story, portfolio lightbox, and files ready for listing platforms.",
       "work.lens.aria": "Visit Auto Lens",
-      "work.obyava.tag": "Full-stack marketplace",
-      "work.obyava.title": "Obyava",
-      "work.obyava.body":
-        "Classifieds-style web app inspired by OLX — post, browse, and manage ads across categories. Built and shipped as a SoftUni AI project with a live Netlify deployment.",
-      "work.obyava.aria": "Visit Obyava",
       "work.link.live": "Live ↗",
-      "work.link.demo": "Live demo ↗",
       "work.link.github": "GitHub ↗",
-      "work.link.qa": "QA notes ↗",
       "skills.eyebrow": "Dual-Pillar Expertise",
       "skills.title":
         "A skills matrix built at the intersection of quality engineering and craft.",
@@ -278,7 +276,12 @@
       "focus.omoniya.status": "Активен билд · презентация по заявка",
       "work.eyebrow": "Избрани проекти",
       "work.title":
-        "Клиентски платформи и пуснати уеб продукти — WordPress брандове, конверсионни сайтове и full-stack marketplace.",
+        "Клиентски платформи и пуснати уеб продукти — WordPress брандове и конверсионни сайтове.",
+      "work.avtonomera.tag": "Продуктов дизайнер · Регистрационни табели",
+      "work.avtonomera.title": "Avtonomera",
+      "work.avtonomera.body":
+        "Персонализиран дизайнер на табели за avtonomera.eu — live canvas прегледи, световни формати и опции, готови за производство, в продукционен WordPress плъгин.",
+      "work.avtonomera.aria": "Посети Avtonomera",
       "work.tehnadzor.tag": "Технически надзор · Корпоративен сайт",
       "work.tehnadzor.title": "Технадзор Русе",
       "work.tehnadzor.body":
@@ -314,15 +317,8 @@
       "work.lens.body":
         "Премиум автодетайлинг и продажбена фотография — история на услугите, портфолио lightbox и файлове, готови за платформи за обяви.",
       "work.lens.aria": "Посети Auto Lens",
-      "work.obyava.tag": "Full-stack marketplace",
-      "work.obyava.title": "Обява",
-      "work.obyava.body":
-        "Уеб приложение за обяви в стил OLX — публикуване, разглеждане и управление на обяви по категории. Изградено и пуснато като SoftUni AI проект с live Netlify деплой.",
-      "work.obyava.aria": "Посети Обява",
       "work.link.live": "Към сайта ↗",
-      "work.link.demo": "Live демо ↗",
       "work.link.github": "GitHub ↗",
-      "work.link.qa": "QA бележки ↗",
       "skills.eyebrow": "Двойна експертиза",
       "skills.title":
         "Матрица от умения в пресечната точка между инженерството на качеството и уеб занаята.",
