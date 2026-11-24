@@ -39,7 +39,7 @@
       "focus.title":
         "Active work from the last three months — high-complexity product modules, not brochure sites.",
       "focus.avtonomera.caption": "Worldwide plate standards · live canvas logic",
-      "focus.avtonomera.chip1": "In development",
+      "focus.avtonomera.chip1": "Live",
       "focus.avtonomera.chip2": "WordPress Plugin",
       "focus.avtonomera.title": "Avtonomera · Global License Plate Designer",
       "focus.avtonomera.body":
@@ -50,7 +50,7 @@
         "Complex option trees mapped to manufacturing-ready output",
       "focus.avtonomera.li3":
         "WordPress plugin architecture for a production storefront",
-      "focus.avtonomera.status": "Private build · public link coming soon",
+      "focus.avtonomera.status": "Live on avtonomera.eu",
       "focus.omoniya.caption": "4-step configurator · SVG + dual DB",
       "focus.omoniya.chip1": "Active build",
       "focus.omoniya.chip2": "Laravel · Livewire",
@@ -251,7 +251,7 @@
       "focus.title":
         "Активна работа от последните три месеца — високосложни продуктови модули, не брошурни сайтове.",
       "focus.avtonomera.caption": "Световни стандарти за табели · live canvas логика",
-      "focus.avtonomera.chip1": "В разработка",
+      "focus.avtonomera.chip1": "На живо",
       "focus.avtonomera.chip2": "WordPress плъгин",
       "focus.avtonomera.title": "Avtonomera · Глобален дизайнер на регистрационни табели",
       "focus.avtonomera.body":
@@ -262,7 +262,7 @@
         "Сложни дървета от опции, свързани с производството",
       "focus.avtonomera.li3":
         "Архитектура на WordPress плъгин за продукционен магазин",
-      "focus.avtonomera.status": "Частен билд · публичен линк скоро",
+      "focus.avtonomera.status": "На живо на avtonomera.eu",
       "focus.omoniya.caption": "4-стъпков конфигуратор · SVG + двойна БД",
       "focus.omoniya.chip1": "Активен билд",
       "focus.omoniya.chip2": "Laravel · Livewire",

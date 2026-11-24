@@ -856,6 +856,7 @@ html[data-lang="bg"] .skills-intro h2 {
 }
 
 .card-links,
+.spotlight-body .text-link,
 .work-body .text-link {
   display: flex;
   flex-wrap: wrap;
